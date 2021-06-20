@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memo Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <h1>The Memo Game</h1>
+            </div>
+            <div id="instructions">
+                <ul>
+                    <li>To Play the Memo Gamen, Press start.</li>
+                    <li>The game will randomly light up a block or blocks the longer you play, click the blocks in the same sequence they are blinking in.</li>
+                </ul>
+                <div class="stargamebtn">
+                    <input type="button" name="startgame" id="startgame" onclick="starGame()" value="Start Game"/>
+                </div>
+            </div>
+            <div id="game" style="display: none;">
+                <div>
+                    <div onclick="blockClicked(event.currentTarget)" class="panel redBlock"></div>
+                    <div onclick="blockClicked(event.currentTarget)" class="panel greenBlock"></div>
+                    <div onclick="blockClicked(event.currentTarget)" class="panel blueBlock"></div>
+                    <div onclick="blockClicked(event.currentTarget)" class="panel yellowBlock"></div>
+                </div>
+                <div class="centerBlock"></div>
+                <div id="levels">
+                    <h3>Level <span id="level">1</span></h3>
+                </div>
+            </div>
+            <div id="resluts" style="display: none;">
+                <h3>Your Final Score<br/> Level <span id="finallevel"></span></h3>
+                <div style="text-align: center; width: 100%;">
+                    <input type="button" name="restart" id="restartBtn" value="Restart Game" onclick="restarGame()" />
+                </div>
+            </div>
+        </div>
+        <audio id="correct" src="correct.mp3"></audio>
+        <audio id="wrong" src="wrong.mp2"></audio>   
+    </div>
+</body>
+</html>
