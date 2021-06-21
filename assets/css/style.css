@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 0 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.panel {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.panel:hover {
+    box-shadow: inset 0px 0px 0px 2px #00ffff;
+    box-sizing: border-box;
+}
+
+.redBlock {
+    border-top-left-radius: 100%;
+    background-color: red;
+}
+
+.greenBlock {
+    border-top-right-radius: 100%;
+    background-color: green;
+}
+
+.blueBlock {
+    border-bottom-left-radius: 100%;
+    background-color: blue;
+}
+
+.orangeBlock {
+    border-bottom-right-radius: 100%;
+    background-color: orange;
+}
+
+.centerparent {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+
+.centerBlock {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: black;
+    display: inline-block;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.active {
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+#instructions {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    color: #fff;
+}
+
+.startgamebtn {
+    width: 100%;
+    text-align: center;
+}
+
+#startgame {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    background-color: #0B3152;
+    color: #fff;
+    font-size: 24px;
+}
+
+#game {
+    padding-top: 20px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#levels {
+    color: #fff;
+}
+
+#restartBtn {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    background-color: #0B3152;
+    color: #fff;
+    font-size: 24px;
+}
+
+#results {
+    color: #fff;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memo Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -20,12 +21,14 @@
                     <input type="button" name="startgame" id="startgame" onclick="starGame()" value="Start Game"/>
                 </div>
             </div>
-            <div id="game" style="display: none;">
+            <div id="game">
                 <div>
                     <div onclick="blockClicked(event.currentTarget)" class="panel redBlock"></div>
                     <div onclick="blockClicked(event.currentTarget)" class="panel greenBlock"></div>
+                </div>
+                <div>
                     <div onclick="blockClicked(event.currentTarget)" class="panel blueBlock"></div>
-                    <div onclick="blockClicked(event.currentTarget)" class="panel yellowBlock"></div>
+                    <div onclick="blockClicked(event.currentTarget)" class="panel orangeBlock"></div>
                 </div>
                 <div class="centerBlock"></div>
                 <div id="levels">
