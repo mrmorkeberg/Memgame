@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memo Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javescript" src="game.js"></script>
 </head>
 <body>
+    <!--Name of the game-->
     <div class="container">
         <div class="row">
             <div class="header">
                 <h1>The Memo Game</h1>
             </div>
+            <!--Instructions for the game-->
             <div id="instructions">
                 <ul>
                     <li>To Play the Memo Game, Press the Start Game button.</li>
-                    <li>The game will randomly light up a block, click the blocks in the same sequence they are blinking in.</li>
+                    <li>The game will randomly light up a block, click the block in the same sequence they are blinking in.</li>
                 </ul>
+                <!--The Start Game button-->
                 <div class="stargamebtn">
                     <input type="button" name="startgame" id="startgame" onclick="starGame()" value="Start Game"/>
                 </div>
             </div>
+            <!--The game-->
             <div id="game">
                 <div>
                     <div onclick="blockClicked(event.currentTarget)" class="panel redBlock"></div>
@@ -30,18 +36,22 @@
                     <div onclick="blockClicked(event.currentTarget)" class="panel blueBlock"></div>
                     <div onclick="blockClicked(event.currentTarget)" class="panel orangeBlock"></div>
                 </div>
+                <!--The center block in the colors-->
                 <div class="centerBlock"></div>
                 <div id="levels">
                     <h3>Level <span id="level">1</span></h3>
                 </div>
             </div>
-            <div id="resluts" style="display: none;">
+            <!--The results of the game, is hidden until the game is finished-->
+            <div id="results" style="display: none;">
                 <h3>Your Final Score<br/> Level <span id="finallevel"></span></h3>
+                <!--Restart game button-->
                 <div style="text-align: center; width: 100%;">
                     <input type="button" name="restart" id="restartBtn" value="Restart Game" onclick="restarGame()" />
                 </div>
             </div>
         </div>
+        <!--Audio for the game-->
         <audio id="correct" src="correct.mp3"></audio>
         <audio id="wrong" src="wrong.mp2"></audio>   
     </div>

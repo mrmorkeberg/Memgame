@@ -1,3 +1,4 @@
+/* Style body */
 body {
     padding: 0;
     margin: 0;
@@ -148,4 +149,30 @@ ul li {
 
 #results {
     color: #fff;
+}
+
+@media(max-width: 768px) {
+    #instructions{
+        width: 100%;
+    }
+    #game {
+        width: 100%;
+    }
+}
+
+@media(max-width: 420px) {
+    .row {
+        width: 90%;
+    }
+    #game {
+        width: 100%;
+    }
+    .panel {
+        width: 140px;
+        height: 140px;
+    }
+    .centerBlock {
+        width: 140px;
+        height: 140px;
+    }
 }
