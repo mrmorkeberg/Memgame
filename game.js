@@ -6,6 +6,14 @@ function startgame() {
         startBlinking();
     }, 1000);
 }
+//start blinking of the block which are in sequence
+const startBlinking = async() => {
+    allowClick = false;
+    for(let block of sequence) {
+        await blink(block);
+    }
+    allowClick = true;
+};
 /* All 4 color of blocks */
 let redBlock = document.querySelector('.redBlock');
 let greenBlock = document.querySelector('.greenBlock'); 
@@ -88,11 +96,7 @@ const blockClicked = blockClicked => {
     }
 };
 
-//start blinking of the block which are in sequence
-const startBlinking = async() => {
-    allowClick = false;
-    for(let block of sequence) {
-        await blink(block);
-    }
-    allowClick = true;
-};
+//Restart the game function
+function restartGame() {
+    window.location.reload();
+}
