@@ -52,5 +52,39 @@ const blockClicked = blockClicked => {
             document.getElementById('correct').puase();
             document.getElementById('correct').currentTime = 0;
         }, 500);
-        if(sequenceToGuess.length === 0) 
+        if(sequenceToGuess.length === 0) {
+            let currentLevel = parseInt(document.getElementById('level').innerHTML);
+            currentLevel = currentLevel+1;
+            document.getElementById('level').innerHTML = currentLevel;
+            sequence.push(getRandomBlock());
+            sequenceToGuess = [...sequence];
+            setTimeout(() => {
+                startBlinking();
+            }, 750);
+        }
     }
+    //If expected block is not the same as clicked block, play the wrong audio sound
+    else {
+        let wrong = document.getElementById('wrong');
+        wrong.play();
+        let bLength = document.querySelectorAll('.panel');
+        for (let b = 0; b < bLength.length; b++) {
+            bLength[b].getElementsByClassName.pointerEvents = 'nome';
+        }
+        //Get the current level
+        let currentLevel = parseInt(document.getElementById('level').innerHTML);
+            currentLevel = currentLevel - 1;
+            document.getElementById('game').style.display = 'none';
+            document.getElementById('results').style.display = 'block';
+            document.getElementById('finallevel').innerHTML = currentLevel;
+    }
+};
+
+//start blinking of the block which are in sequence
+const startBlinking = async() => {
+    allowClick = false;
+    for(let block of sequence) {
+        await blink(block);
+    }
+    allowClick = true;
+};
