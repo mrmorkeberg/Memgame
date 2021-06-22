@@ -1,3 +1,11 @@
+//Start the game
+function startgame() {
+    document.getElementById('instructions').style.display = 'none';
+    document.getElementById('game').style.display = 'block';
+    setTimeout(() => {
+        startBlinking();
+    }, 1000);
+}
 /* All 4 color of blocks */
 let redBlock = document.querySelector('.redBlock');
 let greenBlock = document.querySelector('.greenBlock'); 
