@@ -38,4 +38,19 @@ const blink = block => {
         }, 750);
     });
 };
-    
+//set click false on block
+let allowClick = false;
+const blockClicked = blockClicked => {
+    if(!allowClick) return;
+    let expectedBlock = sequenceToGuess.shift();
+    if(expectedBlock === blockClicked) {
+        document.getElementById('correct').muted = false;
+        let correct = document.getElementById('correct');
+        correct.play();
+        setTimeout(() => {
+            document.getElementById('correct').muted = true;
+            document.getElementById('correct').puase();
+            document.getElementById('correct').currentTime = 0;
+        }, 500);
+        if(sequenceToGuess.length === 0) 
+    }
