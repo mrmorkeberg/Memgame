@@ -1,5 +1,5 @@
 //Start the game
-function startgame() {
+function startGame() {
     document.getElementById('instructions').style.display = 'none';
     document.getElementById('game').style.display = 'block';
     setTimeout(() => {
