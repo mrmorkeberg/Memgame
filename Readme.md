@@ -93,5 +93,5 @@ Images are screendumps of the different bugs I have encountered.
 I used Balsamiq Wireframes to create the Wireframes
 
 - Desktop Wirefram  - [View](assets/css/images/wireframes/memgame-desktop.pdf)
-- Tablet Wirefram - [View](assets/wireframs/tablet.pdf)
-- Mobile phone Wirefram - [View](assets/wireframs/Mobilephone.pdf)
+- Tablet Wirefram - [View](assets/css/images/wireframes/Memgame-Ipad.pdf)
+- Mobile phone Wirefram - [View](assets/css/images/wireframes/Memgame-Iphone.pdf)
