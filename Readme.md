@@ -67,7 +67,7 @@ The goal is to attract playser who wants to train their memory and compete again
 - I want to see what leve I am on
 - I want to see my final score
 
-## Design choices
+## Design choises
 
 ### **Colors**
 
@@ -79,3 +79,19 @@ The goal is to attract playser who wants to train their memory and compete again
 - Color of the active block is #fff
 - Color of panel hover is #00ffff
 - Color of ul is #fff
+
+### **Fonts**
+
+Main font is Helvetica with sans-serif as backup.
+
+### **Images**
+
+Images are screendumps of the different bugs I have encountered.
+
+### **Wireframes**
+
+I used Balsamiq Wireframes to create the Wireframes
+
+- Desktop Wirefram  - [View](assets/css/images/wireframes/memgame-desktop.pdf)
+- Tablet Wirefram - [View](assets/wireframs/tablet.pdf)
+- Mobile phone Wirefram - [View](assets/wireframs/Mobilephone.pdf)
