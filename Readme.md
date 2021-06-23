@@ -64,7 +64,7 @@ The goal is to attract playser who wants to train their memory and compete again
 
 ### **As a player who wants to train my memory**
 - I want a game to train my memory
-- I want to see what leve I am on
+- I want to see what level I am on
 - I want to see my final score
 
 ## Design choises
@@ -95,3 +95,15 @@ I used Balsamiq Wireframes to create the Wireframes
 - Desktop Wirefram  - [View](assets/css/images/wireframes/memgame-desktop.pdf)
 - Tablet Wirefram - [View](assets/css/images/wireframes/memgame-ipad.pdf)
 - Mobile phone Wirefram - [View](assets/css/images/wireframes/memgame-iphone.pdf)
+
+# Features
+
+The website is responsive and has interactive elements. The website consists of 1 pages, where the game is hidden until the player presses the Start Game button, then the game appear. During the game a level indikator will show what level the player is on. When the player fails a Score will be show together with the final level and a Restart Game button. 
+
+# Technologies Used
+
+### **Languages Used**
+
+* #### HTML5
+* #### CSS
+* #### Javascript 
