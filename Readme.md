@@ -12,15 +12,15 @@ Website presents the memory game: The Memo Game, which is a fun memory game to b
 
     - [User goals](#user-goals)
 
-        - [Players for fun](#players-for-fun)
+        - [Players who want to play the game for fun](#players-for-fun)
 
         - [Players for memory training](#players-for-memory-training)
     
     - [User stories](#user-stories)
 
-        - [As a player who want to play a fun game with friends or family](#players-who-want-to-have-fun-with-friends-and-family)
+        - [As a player who want to play a fun game with friends and family](#as-a-player-who-want-to-play-a-fun-game-with-friends-and-family)
 
-        - [As a player who want to train their memory](#Players-who-wants-to-train-their-memory)
+        - [As a player who wants to train my memory](#as-a-player-who-wants-to-train-my-memory)
 
     - [Design choises](#design-choises)
 
@@ -54,3 +54,28 @@ The goal is to attract playser who wants to train their memory and compete again
 
 
 ## User stories
+
+### **As a player who want to play a fun game with friends and family**
+- I want a fun game to play
+- I want to play the game against my friends and family
+- I want the game to be more and more challenging
+- I want to see what level I am on
+- I want to see my final score
+
+### **As a player who wants to train my memory**
+- I want a game to train my memory
+- I want to see what leve I am on
+- I want to see my final score
+
+## Design choices
+
+### **Colors**
+
+- Main background color is black
+- Text color is white 
+- Panel hover is #00ffff
+- Start button color is #0B3152
+- Colors of the game is red, green, blue and orange
+- Color of the active block is #fff
+- Color of panel hover is #00ffff
+- Color of ul is #fff
