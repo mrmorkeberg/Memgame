@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //Start the game
 function startGame() 
 {
@@ -6,7 +8,7 @@ function startGame()
     setTimeout(() => {
         startBlinking();
     }, 1000);
-};
+}
 /* All 4 color of blocks */
 let redBlock = document.querySelector('.redBlock');
 let greenBlock = document.querySelector('.greenBlock'); 
@@ -102,7 +104,7 @@ const startBlinking = async() => {
         await blink(block);
     }
     allowClick = true;
-}
+};
 
 //Restart the game function
 function restartGame() 
