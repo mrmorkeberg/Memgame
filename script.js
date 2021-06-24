@@ -36,17 +36,17 @@ const blink = block => {
         //Play the audio on blinking block
         let correct = document.getElementById('correct'); 
         correct.play();
-        //After 750ms dely, remove the active class from the blinking block
+        //After 300ms delay, remove the active class from the blinking block
         setTimeout(() => {
             document.getElementById('correct').muted = true;
             document.getElementById('correct').pause();
             document.getElementById('correct').currentTime = 0;
             block.classList.remove('active');
-            //The gap of 250ms in between each block blinking
+            //The gap of 150ms in between each block blinking
             setTimeout(() => {
                 resolve();
-            }, 250);
-        }, 750);
+            }, 150);
+        }, 300);
     });
 };
 //set click false on block
