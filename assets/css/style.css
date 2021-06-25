@@ -32,19 +32,20 @@ body {
 .header h1 {
     margin: 0;
 }
-
+/* Style block */
 .panel {
     width: 200px;
     height: 200px;
     display: inline-block;
     cursor: pointer;
 }
-
+/* Style block hover */
 .panel:hover {
     box-shadow: inset 0px 0px 0px 2px #00ffff;
     box-sizing: border-box;
 }
 
+/* Style the gameblocks */
 .redBlock {
     border-top-left-radius: 100%;
     background-color: red;
@@ -65,6 +66,7 @@ body {
     background-color: orange;
 }
 
+/* Style the center in the block game */
 .centerparent {
     width: 100%;
     position: absolute;
@@ -82,11 +84,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* Style active block */
 .active {
     background-color: #fff;
 }
-
+/* Style header */
 .header {
     width: 100%;
     padding-top: 20px;
@@ -94,7 +96,7 @@ body {
     position: relative;
     text-align: center;
 }
-
+/* Style instructions */
 #instructions {
     line-height: 1.4;
     width: 50%;
@@ -110,7 +112,7 @@ ul li {
     list-style: none;
     color: #fff;
 }
-
+/* Style start game button */
 .startgamebtn {
     width: 100%;
     text-align: center;
@@ -124,7 +126,7 @@ ul li {
     color: #fff;
     font-size: 24px;
 }
-
+/* Style game */
 #game {
     padding-top: 20px;
     clear: both;
@@ -132,11 +134,11 @@ ul li {
     text-align: center;
     position: relative;
 }
-
+/* Style levels */
 #levels {
     color: #fff;
 }
-
+/* Style Restart button */
 #restartBtn {
     cursor: pointer;
     border: none;
@@ -146,6 +148,7 @@ ul li {
     font-size: 24px;
 }
 
+/* Style Results */
 #results {
     color: #fff;
 }
