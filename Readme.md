@@ -44,6 +44,16 @@ Website presents the memory game: The Memo Game, which is a fun memory game to b
 
 - [Issues found during site development](#issues-found-during-site-development)
 
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+
+- [Code](#code)
+
+- [Acknowledgements](#acknowledgements)
+
+- [Screenshots](#screenshots)
+
 # User Experience (UX)
 
 ## Website owners goals
