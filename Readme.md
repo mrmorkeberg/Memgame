@@ -4,7 +4,7 @@
 
 Website presents the memory game: The Memo Game, which is a fun memory game to be played with friends and family. The game will light up a block and then the player shall click on it. The game will then light up the first block and then another randon block. For each level there will be added another block and making the memory game harder and harder. See who is best, and get the highest score. 
 
-# # Table of content
+# Table of content
 
 - [UX](#ux) 
 
@@ -77,7 +77,6 @@ The goal is to attract playser who wants to train their memory and compete again
 - Start button color is #0B3152
 - Colors of the game is red, green, blue and orange
 - Color of the active block is #fff
-- Color of panel hover is #00ffff
 - Color of ul is #fff
 
 ### **Fonts**
@@ -96,14 +95,42 @@ I used Balsamiq Wireframes to create the Wireframes
 - Tablet Wirefram - [View](assets/css/images/wireframes/memgame-ipad.pdf)
 - Mobile phone Wirefram - [View](assets/css/images/wireframes/memgame-iphone.pdf)
 
+[Back to Table of contents](#table-of-content)
+
 # Features
 
 The website is responsive and has interactive elements. The website consists of 1 pages, where the game is hidden until the player presses the Start Game button, then the game appear. During the game a level indikator will show what level the player is on. When the player fails a Score will be show together with the final level and a Restart Game button. 
 
 # Technologies Used
 
-### **Languages Used**
+### Languages Used
 
 * #### HTML5
 * #### CSS
-* #### Javascript 
+* #### Javescript
+
+### Git 
+
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+
+### GitHub
+
+* Github was used as a software hosting platform to store the projects code after being pushed from Git
+
+### Gitpod
+
+* Gitpod was used as a development hosting platform
+
+### Photoshop
+
+* Photoshop was used to resizing images and editing pictures for the website.
+
+### Balsamiq
+
+* Balsamiq was used to create the wireframes during the design process.
+
+### ami.responsivedesign
+
+* Am I Responsive was used to do the Mockup.
+
+[Back to Table of contents](#table-of-content)
