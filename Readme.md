@@ -141,6 +141,10 @@ The website is responsive and has interactive elements. The website consists of 
 
 * Am I Responsive was used to do the Mockup.
 
+##  Future implementations
+- create a timer count down on each round
+- create a function so the blocks will be shown quicker and quicker
+
 [Back to Table of content](#table-of-content)
 
 # Testing
@@ -159,10 +163,22 @@ The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to
 
 ## Functionality testing 
 
-Chrome developer tools was used throughout the project for testing and solving problems with responsiveness, style issues and Javescript problems
+Chrome developer tools was used throughout the project for testing and solving problems with responsiveness, style issues and Javescript problems, see bug problems under [Issues found during site development](#issues-found-during-site-development)
 
 ## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
+
+ ## Further Testing
+
+- The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+
+- The website was viewed and tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools.
+
+- Testing was done to ensure that all pages were linking correctly.
+
+- Friends were asked to review the site and to point out bugs and/or user experience issues. 
+
+- The website was viewed many times and margins was changed to give a better user experience.
 
  ## User stories testing
 
@@ -191,3 +207,7 @@ Chrome developer tools was used throughout the project for testing and solving p
 > You can see the score of your game when the game is over
 
 [Back to Table of content](#table-of-content)
+
+# Issues found during site development
+
+
