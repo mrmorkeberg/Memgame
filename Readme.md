@@ -36,6 +36,11 @@ Website presents the memory game: The Memo Game, which is a fun memory game to b
 
 - [Technologies Used](#technologies-used)
 
+- [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+
 # User Experience (UX)
 
 ## Website owners goals
@@ -66,6 +71,8 @@ The goal is to attract playser who wants to train their memory and compete again
 - I want a game to train my memory
 - I want to see what level I am on
 - I want to see my final score
+
+[Back to Table of content](#table-of-content)
 
 ## Design choises
 
@@ -149,9 +156,9 @@ The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to
 - Javescript
     - No errors were returned when passing through the official - [View](assets/images/validator/jshint-validator.png)
 
-## Functionality testing 
+## Functionality Testing 
 
 Chrome developer tools was used throughout the project for testing and solving problems with responsiveness, style issues and Javescript problems
 
-## Compatibility testing
+## Compatibility Testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
