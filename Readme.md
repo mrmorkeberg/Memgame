@@ -239,3 +239,26 @@ Chrome developer tools was used throughout the project for testing and solving p
 
 [Back to Table of content](#table-of-content)
 
+# Deployment
+
+The project was deployed on GitHub pages. I used Gitpod as a development environment where I commited all changes to git version contorl system. I used push command in Gitpod to save changes into GitHub. 
+
+To deploy the project to Github I used the following steps:
+
+- Log into Github and locate the right repository 
+- Click on the repository 
+- Click on settings on the top right side, a menu will open on the left side
+- Find pages in the menu on the left side, second last from the bottom
+- Click on pages
+- Under "Source, click the dropdown called "None" and select "Master Branch"
+- Click save and the pages will deploy after auto-refresh
+- After that there will be a link under GitHub pages that says: Your site is published at Your site is published at https://mrmorkeberg.github.io/Memgame/
+
+To run localy:
+- Log in to GitHub and click on repository to download ([Memgame](https://github.com/mrmorkeberg/Memgame.git))
+- select `Code` and click Download the ZIP file.
+- after download you can extract the file and use it in your local environment 
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([Memgame](https://github.com/mrmorkeberg/Memgame.git)) into your github account.
