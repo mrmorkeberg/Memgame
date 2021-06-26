@@ -142,13 +142,12 @@ The website is responsive and has interactive elements. The website consists of 
 The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to validate every page of the project.
 
 - HTML
-    - No errors were returned when passing through the official
-
+    - No errors were returned when passing through the official - [View](assets/images/validator/html-validator.png)
 - CSS
-    - No errors were found when passing through the official 
+    - No errors were found when passing through the official - [View](assets/images/validator/css-validator.png)
 
 - Javescript
-    - No errors were returned when passing through the official
+    - No errors were returned when passing through the official - [View](assets/images/validator/jshing-validator.png)
 
 ## Functionality testing 
 
