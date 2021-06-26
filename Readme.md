@@ -91,11 +91,11 @@ Images are screendumps of the different bugs I have encountered.
 
 I used Balsamiq Wireframes to create the Wireframes
 
-- Desktop Wirefram  - [View](assets/css/images/wireframes/memgame-desktop.pdf)
-- Tablet Wirefram - [View](assets/css/images/wireframes/memgame-ipad.pdf)
-- Mobile phone Wirefram - [View](assets/css/images/wireframes/memgame-iphone.pdf)
+- Desktop Wirefram  - [View](assets/images/wireframes/memgame-desktop.pdf)
+- Tablet Wirefram - [View](assets/images/wireframes/memgame-ipad.pdf)
+- Mobile phone Wirefram - [View](assets/images/wireframes/memgame-iphone.pdf)
 
-[Back to Table of contents](#table-of-content)
+[Back to Table of content](#table-of-content)
 
 # Features
 
@@ -133,4 +133,26 @@ The website is responsive and has interactive elements. The website consists of 
 
 * Am I Responsive was used to do the Mockup.
 
-[Back to Table of contents](#table-of-content)
+[Back to Table of content](#table-of-content)
+
+# Testing
+
+## Validator Testing
+
+The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to validate every page of the project.
+
+- HTML
+    - No errors were returned when passing through the official
+
+- CSS
+    - No errors were found when passing through the official 
+
+- Javescript
+    - No errors were returned when passing through the official
+
+## Functionality testing 
+
+Chrome developer tools was used throughout the project for testing and solving problems with responsiveness, style issues and Javescript problems
+
+## Compatibility testing
+ Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
