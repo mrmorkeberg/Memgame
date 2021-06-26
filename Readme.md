@@ -1,6 +1,6 @@
 # [The Memo Game](https://mrmorkeberg.github.io/Memgame/)
 
-![Mockup](assets/css/images/Thememogame.png)
+![Mockup](assets/images/bugs/Thememogame.png)
 
 Website presents the memory game: The Memo Game, which is a fun memory game to be played with friends and family. The game will light up a block and then the player shall click on it. The game will then light up the first block and then another randon block. For each level there will be added another block and making the memory game harder and harder. See who is best, and get the highest score. 
 
@@ -280,7 +280,26 @@ this repository ([Memgame](https://github.com/mrmorkeberg/Memgame.git)) into you
     - javatpoint.com
 
 
-## Code 
+# Code 
 - Link for to the comment in script.js was taken from: [View](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const")
 - Link to the favicon code in line 7 in index.htmt was taken from: [View](https://www.javatpoint.com/html-favicon)
 - Link to the favicon generator: [View](https://favicon.io/favicon-generator/) 
+
+# Acknowledgements
+
+- My Mentor for continuous helpful feedback.
+
+- Tutor support at Code Institute for their support.
+
+[Back to Table of content](#table-of-content)
+
+# Screenshots
+## Project screenshots
+
+![startgame](assets/images/startgame.png)
+
+![game](assets/images/game.png)
+
+![score](assets/images/score.png)
+
+[Back to Table of content](#table-of-content)
