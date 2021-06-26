@@ -210,6 +210,12 @@ Chrome developer tools was used throughout the project for testing and solving p
 
 # Issues found during site development
 
-- First bug I found was that the round color panels didn't match up. [View](assets/images/bugs/div-solution.png)
-    - I had put all 4 div in line 36 - 40 in index.html into one div. I split up the 4 divs in 2 and 2 and put them in 2 outer divs. [View](assets/images/bugs/bug-with-color-ring.png)
+- First bug I found was that the round color panels didn't match up. [View](assets/images/bugs/bug-with-color-ring.png)
+    - I had put all 4 div in line 36 - 40 in index.html into one div. I split up the 4 divs in 2 and 2 and put them in 2 outer divs. [View](assets/images/bugs/div-solution.png)
     - This didn't solve the problem. I went through the css in line 49 - 52 and saw I had copy/pasted line 49 into the other lines without changing the code, so all 4 lines hade the code: border-top-left-radius. The danger of copy/paste. 
+
+- Second bug issue I found was that it didn't load the ressouces audio "correct" and "wrong" [View](assets/images/bugs/bug-with-audio-and-startgame.png)
+    - The solution was that I changed the links to the audio files
+
+- Third bug issue was a reference error on start game. [View](assets/images/bugs/bug-with-audio-and-startgame.png)
+    - The problem was a typo... I had starGame instead of startGame. [View](assets/images/bugs/solution-bug-startgame.png)
