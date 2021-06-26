@@ -262,3 +262,25 @@ To run localy:
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 this repository ([Memgame](https://github.com/mrmorkeberg/Memgame.git)) into your github account.
+
+[Back to Table of content](#table-of-content)
+
+# Credits
+
+-  To complete this project I used Code Institute student template: gitpod full template
+
+- Ideas and knowledge library:
+
+    - w3schools.com
+
+    - stackoverflow.com
+
+    - https://web.dev/
+
+    - javatpoint.com
+
+
+## Code 
+- Link for to the comment in script.js was taken from: [View](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const")
+- Link to the favicon code in line 7 in index.htmt was taken from: [View](https://www.javatpoint.com/html-favicon)
+- Link to the favicon generator: [View](https://favicon.io/favicon-generator/) 
