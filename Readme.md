@@ -42,6 +42,8 @@ Website presents the memory game: The Memo Game, which is a fun memory game to b
     - [Compatibility Testing](#compatibility-testing)
     - [User stories testing](#user-stories-testing)
 
+- [Issues found during site development](#issues-found-during-site-development)
+
 # User Experience (UX)
 
 ## Website owners goals
@@ -210,6 +212,10 @@ Chrome developer tools was used throughout the project for testing and solving p
 
 [Back to Table of content](#table-of-content)
 
+# Development
+
+- In the development of the game, I deliberately left out: "display: none" in line 24 in index.html, so that I could see the color panels and work with it in the css. Later I put in:  "display: none;" so that the game first will appear when the Start Game button is pressed.
+
 # Issues found during site development
 
 - First bug I found was that the round color panels didn't match up. [View](assets/images/bugs/bug-with-color-ring.png)
@@ -229,4 +235,7 @@ Chrome developer tools was used throughout the project for testing and solving p
     - The prolem was another typo... restarGame instead of restartGame. 
 
 - Sixth bug issue was when I was validating the Javescript in jshint. It came upp with 35 varnings. [View](assets/images/bugs/js-varnings.png)
-    - In the end, I had to contact Tutor Assistance to get this solved. From Tutor Assistance I got a link to stackoverflow, where I found I could put in this comment to fix the problem. [View](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const") [See the comment](assets/images/bugs/comment.png)
+    - In the end, I had to contact Tutor Assistance to get this solved. From Tutor Assistance I got a link to stackoverflow [View](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const") where I found I could put in this comment [See the comment](assets/images/bugs/comment.png) to fix the problem.
+
+[Back to Table of content](#table-of-content)
+
