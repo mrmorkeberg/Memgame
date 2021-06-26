@@ -40,6 +40,7 @@ Website presents the memory game: The Memo Game, which is a fun memory game to b
     - [Validator Testing](#validator-testing)
     - [Functionality Testing](#functionality-testing)
     - [Compatibility Testing](#compatibility-testing)
+    - [User stories testing](#user-stories-testing)
 
 # User Experience (UX)
 
@@ -144,7 +145,7 @@ The website is responsive and has interactive elements. The website consists of 
 
 # Testing
 
-## Validator Testing
+## Validator testing
 
 The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to validate every page of the project.
 
@@ -156,9 +157,27 @@ The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to
 - Javescript
     - No errors were returned when passing through the official - [View](assets/images/validator/jshint-validator.png)
 
-## Functionality Testing 
+## Functionality testing 
 
 Chrome developer tools was used throughout the project for testing and solving problems with responsiveness, style issues and Javescript problems
 
-## Compatibility Testing
+## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
+
+ ## User stories testing
+
+ ### As a business owner:
+ - The Website owners goals is to have a fun game and to build their brand. 
+  > The game is fun to play. You can play by your self or you can play with friends and family, and you can compare score.
+
+ ### As a player who want to play a fun game with friends and family
+- I want a fun game to play
+> The game is fun to play
+- I want to play the game against my friends and family
+> You can play against friends and family
+- I want the game to be more and more challenging
+> The longer you play the game the more blocks you will need to remember and the harder it will be
+- I want to see what level I am on
+> You can see what level you are on below the game
+- I want to see my final score
+> When you are finish with the game, you will be able to see your final score
