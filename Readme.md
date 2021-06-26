@@ -181,3 +181,13 @@ Chrome developer tools was used throughout the project for testing and solving p
 > You can see what level you are on below the game
 - I want to see my final score
 > When you are finish with the game, you will be able to see your final score
+
+### As a player who wants to train my memory
+- I want a game to train my memory
+> The longer you play the more dificult the game will be, and thereby train you memory
+- I want to see what level I am on
+> You can see what level you are on below the game att all time
+- I want to see my final score
+> You can see the score of your game when the game is over
+
+[Back to Table of content](#table-of-content)
