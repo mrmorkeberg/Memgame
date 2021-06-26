@@ -147,7 +147,7 @@ The W3C Markup Validator, W3C CSS Validator Services and the Jshint were used to
     - No errors were found when passing through the official - [View](assets/images/validator/css-validator.png)
 
 - Javescript
-    - No errors were returned when passing through the official - [View](assets/images/validator/jshing-validator.png)
+    - No errors were returned when passing through the official - [View](assets/images/validator/jshint-validator.png)
 
 ## Functionality testing 
 
