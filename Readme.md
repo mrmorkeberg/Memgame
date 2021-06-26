@@ -180,6 +180,8 @@ Chrome developer tools was used throughout the project for testing and solving p
 
 - The website was viewed many times and margins was changed to give a better user experience.
 
+[Back to Table of content](#table-of-content)
+
  ## User stories testing
 
  ### As a business owner:
@@ -227,4 +229,4 @@ Chrome developer tools was used throughout the project for testing and solving p
     - The prolem was another typo... restarGame instead of restartGame. 
 
 - Sixth bug issue was when I was validating the Javescript in jshint. It came upp with 35 varnings. [View](assets/images/bugs/js-varnings.png)
-    - In the end, I had to contact Tutor Assistance to get this solved. From Tutor Assistance I got a link to stackoverflow, where I found I could put in this comment to fix the problem. [View](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const")
+    - In the end, I had to contact Tutor Assistance to get this solved. From Tutor Assistance I got a link to stackoverflow, where I found I could put in this comment to fix the problem. [View](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const") [See the comment](assets/images/bugs/comment.png)
